@@ -1,0 +1,62 @@
+﻿================================================================================
+   VIDEOFRAMES PDF  —  Extraire des images d'une vidéo et les mettre en PDF
+================================================================================
+
+C'EST QUOI ?
+------------
+Un logiciel pour PC (Windows) qui fait exactement ceci :
+
+  1. Vous choisissez une vidéo de votre ordinateur.
+  2. Il prend une image toutes les 4 secondes (vous pouvez changer l'intervalle).
+  3. Toutes les images apparaissent dans une galerie.
+  4. Vous SUPPRIMEZ celles que vous ne voulez pas (bouton "✕" sur chaque image).
+  5. Vous indiquez le NOM du PDF et le DOSSIER où l'enregistrer.
+  6. Il crée le PDF avec toutes les images restantes, dans le même ordre.
+
+
+COMMENT L'INSTALLER / L'UTILISER
+--------------------------------
+VERSION FACILE (un fichier .exe) :
+   Téléchargez "VideoFramesPDF.exe", copiez-le où vous voulez (Bureau par
+   exemple) et double-cliquez. C'est tout — aucune installation, aucun
+   Python requis.
+   Windows peut afficher un avertissement "Windows a protégé votre PC" :
+   cliquez sur "Informations complémentaires" puis "Exécuter quand même".
+   (Cet avertissement apparaît car le logiciel n'est pas signé.)
+
+VERSION SCRIPT (si vous avez Python) :
+   Double-cliquez sur "Lancer VideoFramesPDF.bat" — le script installe
+   automatiquement ce qu'il manque et lance le logiciel.
+
+
+ASTUCE
+------
+   - Double-cliquez sur une vignette pour la voir en grand.
+   - Les flèches ↑ et ↓ changent l'ordre des images dans le PDF.
+   - La case à cocher à gauche d'une image permet de la garder ou de l'exclure.
+   - "Supprimer la sélection" efface d'un coup toutes les images cochées.
+   - Bouton droit / "Ouvrir le dossier" pour retrouver votre vidéo.
+
+
+QUESTIONS FRÉQUENTES
+--------------------
+Q : Le logiciel prend-il beaucoup de place ?
+R : Non, tout est stocké dans des fichiers temporaires supprimés à la
+    fermeture. Seul le PDF final est conservé.
+
+Q : Est-ce que mes images sont compressées ?
+R : Oui, en JPEG (qualité réglable de 40 à 100). Un PDF de 500 images
+    fait généralement entre 20 et 100 Mo selon la qualité choisie.
+
+Q : Ça marche avec quels formats de vidéo ?
+R : mp4, avi, mkv, mov, wmv, flv, webm, m4v, mpg, mpeg, 3gp, ts.
+
+Q : J'ai une longue vidéo, est-ce que ça rame ?
+R : Non, le logiciel va directement chercher les images aux bonnes positions
+    au lieu de lire toute la vidéo image par image.
+
+Q : Est-ce que ça marche hors ligne ?
+R : Oui, 100 % hors ligne. Aucune donnée n'est envoyée sur Internet.
+
+
+================================================================================
